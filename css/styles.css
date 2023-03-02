@@ -1,0 +1,46 @@
+:root{
+    -- : ;
+}
+body {
+    font-family: 'roboto';
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.logo1 {
+width: 44px;
+height: 24px;
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+
+color: #4D5AE5;
+}
+.logo2 {
+width: 71px;
+height: 24px;
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+color: #2E2F42;
+}
+.hero {
+    background: #2E2F42;
+}
+.header-list {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.header-address a {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;  
+}
