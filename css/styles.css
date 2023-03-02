@@ -1,6 +1,10 @@
 :root{
     --color:#2E2F42;
     --color2:#434455;
+    --color3:#4D5AE5;
+    --color4:#ffffff;
+    --color5:#E7E9FC;
+    --color6:#F4F4FD;
 }
 body {
     font-family: 'roboto', sans-serif;
@@ -21,7 +25,7 @@ body {
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color:var(--color3);
 }
 .logo-studio {
     font-family: 'Raleway';
@@ -43,7 +47,7 @@ color:var(--color);
 .header-address a {
     font-size: 16px;
     line-height: 1.5;
-    color: ;  
+    color: var(--color2);  
 }
 /* <!-- =============HERO============ --> */
 .hero-main {
@@ -54,7 +58,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color:#ffffff;
+color:var(--color4);
 font-family:inherit
 }
 .hero-box {
@@ -65,7 +69,7 @@ width: 169px;
 height: 56px;
 left: 636px;
 top: 428px;
-background: #4D5AE5;
+background: var(--color3);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
@@ -83,7 +87,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: va
+color: var(--color2)
+}
 /* <!-- ==========WHAT ARE WE DOING======== --> */
 /* <!-- =============OUR TEAM============== --> */
 .team {
@@ -93,14 +98,14 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color:color:var(--color);
+color:var(--color);
 }
 .team-name {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: color:var(--color);;
+color: var(--color);
 }
 .team-position {
 font-weight: 400;
@@ -109,15 +114,16 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: var(--color2);
 }
+/* <!-- ================FOOTER=============== --> */
 .footer-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #E7E9FC;
+color: var(--color5)
 }
 .footer-box {
-background: #2E2F42;
+background: var(--color);
 }
 .logo-studio-bottom{
     font-family: 'Raleway';
@@ -127,6 +133,5 @@ font-size: 18px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: var(--color6);
 }
-/* <!-- ================FOOTER=============== --> */
