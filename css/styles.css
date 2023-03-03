@@ -10,7 +10,7 @@
   --white: #ffffff;
 }
 body {
-  font-family: 'roboto', sans-serif;
+  font-family:"Roboto", sans-serif; color: var(--slate)
 }
 .link {
   text-decoration: none;
@@ -45,13 +45,11 @@ body {
 }
 .header-addres {
   line-height: 1.5;
-  color: var(--slate);
   font-style: normal;
   letter-spacing: 0.02em
 }
 .header-contact {
   line-height: 1.5;
-  color: var(--slate);
   font-style: normal;
   letter-spacing: 0.02em
 }
@@ -102,7 +100,6 @@ body {
 .about-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
 }
 /** ==========WHAT ARE WE DOING======== --> */
 .examples-title {
@@ -132,7 +129,6 @@ body {
 .team-position {
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--slate);
 }
 /**-- ================FOOTER=============== --> */
 .footer-text {
@@ -179,5 +175,4 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
 }
