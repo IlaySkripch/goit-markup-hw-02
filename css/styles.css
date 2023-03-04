@@ -49,10 +49,12 @@ body {
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.header-contact {
+.header-mail,
+.header-tel {
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
 .link-hover:focus,
 .link-hover:hover {
