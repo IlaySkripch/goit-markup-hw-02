@@ -10,7 +10,8 @@
   --white: #ffffff;
 }
 body {
-  font-family:"Roboto", sans-serif; color: var(--slate)
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
 }
 .link {
   text-decoration: none;
@@ -20,7 +21,7 @@ body {
 }
 /** !============HEADER============ */
 .logo-web {
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -46,12 +47,12 @@ body {
 .header-addres {
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 .header-contact {
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 .link-hover:focus,
 .link-hover:hover {
@@ -136,7 +137,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--cornflower);
 }
-.footer-box {
+.footer-section {
   background: var(--navy-blue);
 }
 .logo-studio-bottom {
