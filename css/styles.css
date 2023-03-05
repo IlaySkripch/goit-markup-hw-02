@@ -20,8 +20,8 @@ body {
   list-style: none;
 }
 /** !============HEADER============ */
-.logo-web {
-  font-family: 'Raleway', sans-serif;
+.logo {
+  font-family:'Ralewey', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -30,12 +30,6 @@ body {
   color: var(--iris);
 }
 .logo-studio {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--navy-blue);
 }
 .header-list {
@@ -49,11 +43,13 @@ body {
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.header-mail,
-.header-tel {
+.header-contact-items {
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0.02em;
+}
+.header-mail,
+.header-tel {
   color: var(--slate);
 }
 .link-hover:focus,
@@ -143,12 +139,6 @@ body {
   background: var(--navy-blue);
 }
 .logo-studio-bottom {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--cold);
 }
 /*!```````````````P O R T F O L I O```````````````` */
@@ -156,9 +146,14 @@ body {
   color: var(--iris);
   width: 116px;
   height: 48px;
-  background: var(--cold);
   border: 1px solid;
   border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--cold);
 }
 .gallery-btn:focus,
 .gallery-btn:hover {
