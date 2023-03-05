@@ -21,7 +21,7 @@ body {
 }
 /** !============HEADER============ */
 .logo {
-  font-family:'Ralewey', sans-serif;
+  font-family: 'Ralewey', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -37,11 +37,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-}
-.header-addres {
-  line-height: 1.5;
-  font-style: normal;
-  letter-spacing: 0.02em;
 }
 .header-contact-items {
   line-height: 1.5;
@@ -59,6 +54,7 @@ body {
 /**  =============HERO============ --> */
 .hero {
   background-color: var(--navy-blue);
+  font-family: "Roboto", sans-serif;
 }
 .hero-main {
   font-size: 56px;
