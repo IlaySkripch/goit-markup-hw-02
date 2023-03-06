@@ -132,7 +132,7 @@ body {
   color: var(--cornflower);
 }
 .footer-section {
-  background: var(--navy-blue);
+  background-color: var(--navy-blue);
 }
 .logo-studio-bottom {
   color: var(--cold);
