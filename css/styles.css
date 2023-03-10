@@ -32,7 +32,7 @@ body {
 .logo-studio {
   color: var(--navy-blue);
 }
-.header-list {
+.header-item {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -62,7 +62,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
-  font-family: inherit;
 }
 .hero-btn {
   width: 169px;
@@ -79,6 +78,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  font-family: inherit;
 }
 .hero-btn:focus,
 .hero-btn:hover {
@@ -150,6 +150,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: var(--cold);
+  font-family: inherit;
 }
 .gallery-btn:focus,
 .gallery-btn:hover {
