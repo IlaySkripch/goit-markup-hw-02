@@ -43,7 +43,6 @@ body {
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.header-mail,
 .header-tel {
   color: var(--slate);
 }
