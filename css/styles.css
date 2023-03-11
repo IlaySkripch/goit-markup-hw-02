@@ -11,7 +11,7 @@
 }
 .body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--slate);
 }
 .address {
   font-style: normal;
@@ -28,7 +28,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--iris);
 }
@@ -60,7 +60,7 @@
 /**  =============HERO============ --> */
 .hero {
   background-color: var(--navy-blue);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .hero-main {
   font-size: 56px;
@@ -141,7 +141,7 @@
   background-color: var(--navy-blue);
 }
 .logo-web-footer {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
