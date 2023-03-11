@@ -9,7 +9,7 @@
   --cold: #f4f4fd;
   --white: #ffffff;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
 }
@@ -102,6 +102,7 @@
 .about-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
 /** ==========WHAT ARE WE DOING======== --> */
 .examples-title {
@@ -131,6 +132,7 @@
 .team-position {
   line-height: 24px;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
 /**-- ================FOOTER=============== --> */
 .footer-text {
