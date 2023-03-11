@@ -9,9 +9,12 @@
   --cold: #f4f4fd;
   --white: #ffffff;
 }
-body {
+.body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
+}
+.address {
+  font-style: normal;
 }
 .link {
   text-decoration: none;
@@ -38,10 +41,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-.header-contact-items {
+/* .header-contact-items {
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0.02em;
+} */
+.header-address {
+  line-height: 1.5;
+  font-style: normal;
 }
 .header-tel {
   color: var(--slate);
@@ -130,10 +137,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--cornflower);
 }
-.footer-section {
+.footer {
   background-color: var(--navy-blue);
 }
-.logo-studio-bottom {
+.logo-web-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.logo-studio-footer {
   color: var(--cold);
 }
 /*!```````````````P O R T F O L I O```````````````` */
@@ -169,4 +185,5 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
